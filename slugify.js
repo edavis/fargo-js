@@ -1,12 +1,7 @@
 /*
  * slugify.js
  *
- * JS version of some slugify code I use elsewhere. "Slug" is a
- * newspaper term used to quickly identify an article as it moves
- * through the editing process.
- *
- * I was introduced to it via Django, where it refers to a "URL-safe"
- * version of a piece of text (usually the headline of a given post).
+ * JS version of some slugify code I use elsewhere.
  *
  * Specifically, it does the following:
  *
