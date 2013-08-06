@@ -5,15 +5,18 @@
  *
  * Specifically, it does the following:
  *
- * 1) Remove any non-alphanumerics, dashes, and spaces
- * 2) Turn all whitespace characters into dashes
- * 3) Collapse multiple dashes in a row into one
- * 4) Lowercase the string
+ *  1) Remove any non-alphanumerics, dashes, and spaces
+ *  2) Turn all whitespace characters into dashes
+ *  3) Collapse multiple dashes in a row into one
+ *  4) Lowercase the string
  *
  * Examples:
  *
- * slugify('Hello world') -> 'hello-world'
- * slugify('This $ string\'s very \' complicated    and odd') -> 'this-strings-very-complicated-and-odd'
+ *  slugify('Hello world') -> 'hello-world'
+ *  slugify('This $ string\'s very \' complicated    and odd') -> 'this-strings-very-complicated-and-odd'
+ *
+ * Feel free to use this snippet, located at
+ * http://js.davising.com/snippets/slugify.js, in your Fargo scripts.
  */
 
 function slugify(text) {
